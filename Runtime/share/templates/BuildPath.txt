@@ -1,0 +1,70 @@
+#
+# zamiaCAD build configuration file
+#
+# This is basically zamiaCAD's equivalent of a Makefile.
+
+#
+# Entry format (simplified):
+#
+# ( 'extern'|'local'|'default' ) ('recursive'|'nonrecursive') [ 'list' ] ( <library_id> | 'none' ) <path_prefix>
+#
+# environment variables are available bourne shell style ($var), local
+# variables can be assigned using '='
+#
+# certain file name patterns can be excluded from build
+#
+# 'ignore' <pattern>
+#
+# External BuildPath.txt files can be included:
+#
+# 'include' <path>
+#
+# Toplevel(s) to elaborate can be specified:
+#
+# format: [ <library_id> '.' ] <entity_id> [ '(' <architecture_id> ')' ]
+#
+
+#
+# sample entries follow
+#
+
+# All files matching "*.in.vhd*" will be ignored
+# ignore "*.in.vhd*"
+
+# a local variable
+# LEON_SRC="$HOME/projects/workspace/zamia/examples/leonSOC"
+
+# include an external BuildPath.txt
+# include "/projects/leon/BuildPath.txt"
+
+# specify external sources and their target libs
+# extern GRLIB            "$LEON_SRC/lib/grlib"
+# extern TECHMAP          "$LEON_SRC/lib/techmap"
+
+# by default, extern declarations are recursive
+# use the 'nonrecursive' keyword otherwise
+# extern nonrecursive FOO "$LEON_SRC/lib/foo"
+
+# list of external source files:
+# extern list MYLIB "$LEON_SRC/list.txt"
+
+# external sources that are declared readonly will be cached on your local disk 
+# extern readonly SPW     "$LEON_SRC/lib/spw"
+
+# specify a target library for sources inside your workspace
+# local GAISLER "gaisler" 
+
+# exclude a specific subdirectory
+# local none "gaisler/test"
+
+# specify the default target library for local sources
+# you can also use the keyword "NONE" here to exclude sources that
+# reside in no sub directory
+# default none
+
+# specify one or more toplevel(s) (each toplevel will be elaborated automatically)
+# format: [ <LIBRARY> '.' ] <ENTITY [ '(' <ARCHITECTURE> ')' ]
+# toplevel WORK.LEON3MP(RTL)
+# toplevel LEON3S
+
+

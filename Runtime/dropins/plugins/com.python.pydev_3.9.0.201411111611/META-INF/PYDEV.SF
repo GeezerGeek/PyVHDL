@@ -1,0 +1,33 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: nSQiRKXjy/ySKeIFARr27CmS/40JY
+ /BI2O7FOt7U3C0=
+SHA-256-Digest-Manifest: zz5xmphxUaGZrfCOsOUNEqL6t5e8aDwf3yDw+S39IOE=
+Created-By: 1.7.0_55 (Oracle Corporation)
+
+Name: LICENSE.TXT
+SHA-256-Digest: mtk2pu43aWF40oMq/sr3cRMcILygEgrX4KgNzXYsnaA=
+
+Name: META-INF/maven/org.python.pydev/com.python.pydev/pom.xml
+SHA-256-Digest: WQCsoiwRm0Pgh4G2+4TjfXXYm3hofCi91KRKdzPUgPs=
+
+Name: icons/python_16x16.png
+SHA-256-Digest: CLUFOgOoOMVtynX0aX/HumFMT2YxBsS6o5PSeGA2WAE=
+
+Name: icons/searchm_obj.gif
+SHA-256-Digest: RS04BdD2Mk1uRCO1It16MSSrvDiNEsKu9V1rKMzf6cw=
+
+Name: plugin.xml
+SHA-256-Digest: nZ+KSlAZUBw6LHJE4BB+KhD4oEpSHAcr+sFECsEbzO8=
+
+Name: pydev.jar
+SHA-256-Digest: K6vexO0K29wZcoTGNVASKDS0qPLZEH3myzcYxyqCoX4=
+
+Name: icons/class_hi.gif
+SHA-256-Digest: iV/9Cj3mwVkGlw0Mmy3W8spXbNpQALlJPKLnGNm1HPo=
+
+Name: icons/python_file.gif
+SHA-256-Digest: pFShDsjVIOKt8yN9jTfZVJQSyZsKUEdadnNvONE2NWs=
+
+Name: META-INF/maven/org.python.pydev/com.python.pydev/pom.properties
+SHA-256-Digest: cosNfRIIClyPDqvPtihbxzls83r+/1a4jwkQO0hZIv8=
+

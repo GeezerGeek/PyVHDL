@@ -1,0 +1,56 @@
+Manifest-Version: 1.0
+Export-Package: com.python.pydev,com.python.pydev.actions,com.python.p
+ ydev.refactoring,com.python.pydev.ui.hierarchy,com.python.pydev.ui.se
+ arch,com.python.pydev.util
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: pydev.jar
+Built-By: fabio_000
+Eclipse-BundleShape: dir
+Bundle-Name: Pydev Extensions
+Bundle-Localization: plugin
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jf
+ ace.text,org.python.pydev;bundle-version="2.7.6",org.python.pydev.cor
+ e,org.junit;bundle-version="4.0";resolution:=optional,org.python.pyde
+ v.ast,org.python.pydev.parser,org.eclipse.ui.editors,org.eclipse.ui.w
+ orkbench.texteditor,org.eclipse.core.resources,org.eclipse.core.varia
+ bles,org.eclipse.debug.core,org.eclipse.debug.ui,org.python.pydev.deb
+ ug,org.eclipse.ui.console,org.python.pydev.jython,org.eclipse.search,
+ org.eclipse.ui.ide,org.python.pydev.shared_interactive_console,org.py
+ thon.pydev.shared_ui
+Bundle-Vendor: Aptana
+Build-Jdk: 1.7.0_55
+Bundle-Version: 3.9.0.201411111611
+Bundle-Activator: com.python.pydev.PydevPlugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.python.pydev; singleton:=true
+Archiver-Version: Plexus Archiver
+
+Name: LICENSE.TXT
+SHA-256-Digest: J75t01G5GT6rkY9hiDNA+yh/SDVMI+VNinfwannMATI=
+
+Name: META-INF/maven/org.python.pydev/com.python.pydev/pom.xml
+SHA-256-Digest: Isz/xCNnjqeJU8ofQiUIrQi2SjsRwpN91rJ/RGcnTHA=
+
+Name: icons/python_16x16.png
+SHA-256-Digest: LOVLs3Qye1Syxa2V4gW/A+2PMEEtxjKOi92MJOuKyOs=
+
+Name: plugin.xml
+SHA-256-Digest: gSqmvnt5PtnthkyxIAaPceFA6BFLu1TmKLGSBcNO1yA=
+
+Name: icons/searchm_obj.gif
+SHA-256-Digest: KtCs3/NoOfMMJoHbDoWa8UysYpNiZ6lxDiV3ckMk5VE=
+
+Name: pydev.jar
+SHA-256-Digest: jE55GBPeoNl/R39inChITcYSVvJRvEueGBaGKOEa7n0=
+
+Name: icons/python_file.gif
+SHA-256-Digest: P9VbNQYYqpZTqsSzzncmO2cylcJ/PozlNnS0vccyRoM=
+
+Name: icons/class_hi.gif
+SHA-256-Digest: 4Fo4Psb2d4W3ZZKmWsBto3GlIa4qdftbShW/RiPk4w4=
+
+Name: META-INF/maven/org.python.pydev/com.python.pydev/pom.properties
+SHA-256-Digest: /0TlNhgQJRmCH2+AadTWwog0bODN6uhFUB0dWIhib0U=
+

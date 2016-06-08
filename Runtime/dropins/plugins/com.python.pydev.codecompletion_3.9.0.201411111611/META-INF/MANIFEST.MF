@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Export-Package: com.python.pydev.codecompletion
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: codecompletion.jar
+Built-By: fabio_000
+Eclipse-BundleShape: dir
+Bundle-Name: Codecompletion Plug-in
+Bundle-Localization: plugin
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jf
+ ace.text,org.python.pydev.shared_core,org.python.pydev.shared_ui,org.
+ python.pydev;bundle-version="2.7.6",com.python.pydev,org.python.pydev
+ .core,org.python.pydev.parser,org.junit;bundle-version="4.0";resoluti
+ on:=optional,com.python.pydev.fastparser,org.eclipse.core.resources,c
+ om.python.pydev.analysis,org.eclipse.ui.editors,com.python.pydev.refa
+ ctoring,org.python.pydev.shared_interactive_console,org.eclipse.ui.wo
+ rkbench.texteditor
+Bundle-Vendor: Aptana
+Build-Jdk: 1.7.0_55
+Bundle-Version: 3.9.0.201411111611
+Bundle-Activator: com.python.pydev.codecompletion.CodecompletionPlugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.python.pydev.codecompletion; singleton:=true
+Archiver-Version: Plexus Archiver
+
+Name: LICENSE.TXT
+SHA-256-Digest: J75t01G5GT6rkY9hiDNA+yh/SDVMI+VNinfwannMATI=
+
+Name: codecompletion.jar
+SHA-256-Digest: wX4cK0swAl3kse7JB7fF6QZP8OVOG9yIey9ngtogjK0=
+
+Name: plugin.xml
+SHA-256-Digest: eel3OIcceX1wWcWtW97Dnn9XA9GSnhJ+9zCT1LRRbS4=
+
+Name: META-INF/maven/org.python.pydev/com.python.pydev.codecompletion/
+ pom.xml
+SHA-256-Digest: BGZTGEZh5N7vCebOQWq0RUsgzSuxRrHbKg9MXg26i3w=
+
+Name: META-INF/maven/org.python.pydev/com.python.pydev.codecompletion/
+ pom.properties
+SHA-256-Digest: or7gxZlQerdK0IFzfUllZ677VkzPDt7CSE267DZW3j8=
+

@@ -1,0 +1,59 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: pydev_django.jar
+Built-By: fabio_000
+Eclipse-BundleShape: dir
+Bundle-Name: Pydev Django
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jf
+ ace.text,org.python.pydev,org.python.pydev.core,org.junit;bundle-vers
+ ion="4.0";resolution:=optional,org.python.pydev.ast,org.python.pydev.
+ parser,org.eclipse.ui.editors,org.eclipse.ui.workbench.texteditor,org
+ .eclipse.core.resources,org.eclipse.core.variables,org.eclipse.debug.
+ core,org.eclipse.debug.ui,org.python.pydev.debug,org.eclipse.ui.conso
+ le,org.python.pydev.jython,org.eclipse.search,org.eclipse.ui.ide,org.
+ python.pydev.customizations,org.eclipse.core.expressions,org.python.p
+ ydev.shared_ui
+Bundle-Vendor: Aptana
+Build-Jdk: 1.7.0_55
+Bundle-Version: 3.9.0.201411111611
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.python.pydev.django.DjangoPlugin
+Bundle-SymbolicName: org.python.pydev.django;singleton:=true
+Archiver-Version: Plexus Archiver
+
+Name: LICENSE.txt
+SHA-256-Digest: J75t01G5GT6rkY9hiDNA+yh/SDVMI+VNinfwannMATI=
+
+Name: icons/django_16x16.png
+SHA-256-Digest: qBKnaQfPJAhbBOGGpRLNRF7IvuPXZ8yKqicIM6jfDZg=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.django/pom.xml
+SHA-256-Digest: 3q//ZTASdBsu6tpI6h30tLoFJgaRO4VOPV8NFOgD2PE=
+
+Name: plugin.xml
+SHA-256-Digest: +IeUtESIp9rdjoL9lrWoHe5ZYM1dTKleZFG0CuRHB+k=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.django/pom.prop
+ erties
+SHA-256-Digest: ruFSLc9uTdy3SpnfdpcJDyRJzS2PcjXkyLwVNJTgLyQ=
+
+Name: icons/django_remove_nature.png
+SHA-256-Digest: C2DYi4MEf/jehb5cNcM35v59i9GqyHOxsfvd84B/ylM=
+
+Name: icons/django_nature.png
+SHA-256-Digest: mf//Qq4HXMeCMlbUQBHOnv0mZ0CzphnhMs3CzUjWT/k=
+
+Name: pydev_django.jar
+SHA-256-Digest: 65VnYBY5HF00MHnBdfIa0mA9vN3dn9GV1CTko1R4AQU=
+
+Name: icons/django_logo.png
+SHA-256-Digest: euQH2CrSpXNefQglqIsCGYG/PVg1U+UuZNs+CUzE2Os=
+
+Name: icons/djangoNature.gif
+SHA-256-Digest: m8t0FNT9SFNJ4S2adw5v4dxUVSTzBwLNswHY5vScnxU=
+
+Name: icons/django_7x7.png
+SHA-256-Digest: 95oBaz5e9pKJ7i7VPQZj6z/eDaIhgPe6bpqwZN01mg4=
+

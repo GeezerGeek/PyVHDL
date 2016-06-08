@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Export-Package: org.python.pydev.core,org.python.pydev.core.cache,org.
+ python.pydev.core.concurrency,org.python.pydev.core.docutils,org.pyth
+ on.pydev.core.log,org.python.pydev.core.parser,org.python.pydev.core.
+ performanceeval,org.python.pydev.core.resource_stubs,org.python.pydev
+ .core.structure
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: core.jar
+Built-By: fabio_000
+Eclipse-BundleShape: dir
+Bundle-Name: Core Plug-in
+Bundle-Localization: plugin
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.junit;bundle-version="4.0.0";resolution:=optional,
+ org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jface.text,org.ec
+ lipse.core.resources,org.eclipse.ui.workbench.texteditor,org.eclipse.
+ core.filebuffers,org.eclipse.ui.console,org.eclipse.core.variables,or
+ g.python.pydev.shared_core;visibility:=reexport,org.python.pydev.shar
+ ed_ui
+Bundle-Vendor: Aptana
+Build-Jdk: 1.7.0_55
+Bundle-Version: 3.9.0.201411111611
+Bundle-Activator: org.python.pydev.core.CorePlugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.python.pydev.core; singleton:=true
+Archiver-Version: Plexus Archiver
+
+Name: LICENSE.txt
+SHA-256-Digest: J75t01G5GT6rkY9hiDNA+yh/SDVMI+VNinfwannMATI=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.core/pom.proper
+ ties
+SHA-256-Digest: bpqnA1UOFITKB1nd03YOsWlydqrQHs99VuQnzNTjDnA=
+
+Name: core.jar
+SHA-256-Digest: 28cou22f10Slv1sj0qsdXuNkpq09YhgMhn59RLW7U9g=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.core/pom.xml
+SHA-256-Digest: 6VUa8fc5i7BBYvDszMPH26PvxujhpsfGAFfCiBEgojI=
+
+Name: icons/python_logging.png
+SHA-256-Digest: dosYMBna/WsZWOuL+Kg1QZKYHAJDKtuy6f1fVVdoNv0=
+

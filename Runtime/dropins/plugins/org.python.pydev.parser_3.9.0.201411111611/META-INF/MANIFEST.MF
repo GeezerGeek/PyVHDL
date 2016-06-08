@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Export-Package: org.python.pydev.parser,org.python.pydev.parser.fastpa
+ rser,org.python.pydev.parser.grammar24,org.python.pydev.parser.gramma
+ r25,org.python.pydev.parser.grammar26,org.python.pydev.parser.grammar
+ 27,org.python.pydev.parser.grammar30,org.python.pydev.parser.grammarc
+ ommon,org.python.pydev.parser.jython,org.python.pydev.parser.jython.a
+ st,org.python.pydev.parser.jython.ast.factory,org.python.pydev.parser
+ .prettyprinter,org.python.pydev.parser.prettyprinterv2,org.python.pyd
+ ev.parser.profile,org.python.pydev.parser.visitors,org.python.pydev.p
+ arser.visitors.comparator,org.python.pydev.parser.visitors.scope
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: parser.jar
+Built-By: fabio_000
+Eclipse-BundleShape: dir
+Bundle-Localization: plugin
+Bundle-Name: Parser Plug-in
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.junit;bundle-version="4.0.0";resolution:=optional,
+ org.eclipse.ui,org.eclipse.ui.ide,org.eclipse.core.runtime,org.eclips
+ e.core.resources,org.eclipse.jface.text,org.python.pydev.core,org.ecl
+ ipse.ui.editors,org.eclipse.ui.workbench.texteditor
+Bundle-Version: 3.9.0.201411111611
+Build-Jdk: 1.7.0_55
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.python.pydev.parser.ParserPlugin
+Bundle-SymbolicName: org.python.pydev.parser; singleton:=true
+Archiver-Version: Plexus Archiver
+
+Name: schema/pydev_parser_observer.exsd
+SHA-256-Digest: udN0FNzmbxEpmwmTJjpVGwFEXbjSpoqrUOQK36WrpDM=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.parser/pom.prop
+ erties
+SHA-256-Digest: aycD3wMbxt+IUwL3xlOJwszsm0nCx+C8zwh0Aem93Vk=
+
+Name: LICENSE.txt
+SHA-256-Digest: J75t01G5GT6rkY9hiDNA+yh/SDVMI+VNinfwannMATI=
+
+Name: plugin.xml
+SHA-256-Digest: aOqkeA/EdSN/O8ZxIqGUbXBztq04CzDCT7xwG7QK5Yg=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.parser/pom.xml
+SHA-256-Digest: QJXd0mCHd9o9LBPhA0Rgda6kL83o+XR2fS5CPglFerI=
+
+Name: parser.jar
+SHA-256-Digest: E7AI/KYqrIPCdIJkHTqvWNZUSxhWok21R82IQ7UmwAw=
+

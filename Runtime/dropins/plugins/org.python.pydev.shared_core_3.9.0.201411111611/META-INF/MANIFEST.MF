@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Export-Package: org.python.pydev.shared_core,org.python.pydev.shared_c
+ ore.actions,org.python.pydev.shared_core.auto_edit,org.python.pydev.s
+ hared_core.bundle,org.python.pydev.shared_core.cache,org.python.pydev
+ .shared_core.callbacks,org.python.pydev.shared_core.editor,org.python
+ .pydev.shared_core.io,org.python.pydev.shared_core.locator,org.python
+ .pydev.shared_core.log,org.python.pydev.shared_core.model,org.python.
+ pydev.shared_core.net,org.python.pydev.shared_core.out_of_memory,org.
+ python.pydev.shared_core.parsing,org.python.pydev.shared_core.partiti
+ oner,org.python.pydev.shared_core.path_watch,org.python.pydev.shared_
+ core.process,org.python.pydev.shared_core.string,org.python.pydev.sha
+ red_core.structure,org.python.pydev.shared_core.testutils,org.python.
+ pydev.shared_core.utils
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: shared_core.jar
+Built-By: fabio_000
+Eclipse-BundleShape: dir
+Bundle-Localization: plugin
+Bundle-Name: Shared Core Plug-in
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.jface.text,org.ju
+ nit;bundle-version="4.0";resolution:=optional,org.eclipse.jface,org.e
+ clipse.core.resources,org.eclipse.core.filebuffers
+Bundle-Vendor: Appcelerator
+Bundle-Version: 3.9.0.201411111611
+Build-Jdk: 1.7.0_55
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.python.pydev.shared_core.SharedCorePlugin
+Bundle-SymbolicName: org.python.pydev.shared_core;singleton:=true
+Archiver-Version: Plexus Archiver
+
+Name: shared_core.jar
+SHA-256-Digest: C2qVxL++hwh8I3OSXCmhBpSQDhDWPhybLBUQXtYDpqg=
+
+Name: LICENSE.txt
+SHA-256-Digest: J75t01G5GT6rkY9hiDNA+yh/SDVMI+VNinfwannMATI=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.shared_core/pom
+ .properties
+SHA-256-Digest: jTOgcAy4SPnhOv2q1lfpzy0E0gPjn2uDFVmjr5biZX4=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.shared_core/pom
+ .xml
+SHA-256-Digest: +Fypc1F/kVcNyX38Z7BO6FepFOJzkxEBBSHlxowSMFg=
+

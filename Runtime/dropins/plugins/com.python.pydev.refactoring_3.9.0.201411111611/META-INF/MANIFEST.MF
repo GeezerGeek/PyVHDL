@@ -1,0 +1,57 @@
+Manifest-Version: 1.0
+Export-Package: com.python.pydev.refactoring.actions,com.python.pydev.
+ refactoring.changes,com.python.pydev.refactoring.hyperlink,com.python
+ .pydev.refactoring.markoccurrences,com.python.pydev.refactoring.refac
+ torer,com.python.pydev.refactoring.refactorer.refactorings.rename,com
+ .python.pydev.refactoring.refactorer.refactorings.renamelocal,com.pyt
+ hon.pydev.refactoring.refactorer.search,com.python.pydev.refactoring.
+ refactorer.search.copied,com.python.pydev.refactoring.search,com.pyth
+ on.pydev.refactoring.tdd,com.python.pydev.refactoring.ui,com.python.p
+ ydev.refactoring.ui.findreplace,com.python.pydev.refactoring.wizards,
+ com.python.pydev.refactoring.wizards.rename,com.python.pydev.refactor
+ ing.wizards.rename.visitors
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: refactoring.jar
+Built-By: fabio_000
+Eclipse-BundleShape: dir
+Bundle-Name: Refactoring Plug-in
+Bundle-Localization: plugin
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.ui,org.eclipse.ui.editors,org.eclipse.ui.i
+ de,org.eclipse.ui.workbench.texteditor,org.eclipse.core.runtime,org.e
+ clipse.jface.text,org.python.pydev;bundle-version="2.7.6",com.python.
+ pydev,org.junit;bundle-version="4.0";resolution:=optional,org.eclipse
+ .search,org.python.pydev.ast,org.python.pydev.shared_ui,org.python.py
+ dev.core,org.python.pydev.parser,org.eclipse.core.resources,com.pytho
+ n.pydev.analysis,org.eclipse.ltk.core.refactoring,org.eclipse.ltk.ui.
+ refactoring,org.eclipse.jdt.core;resolution:=optional,org.eclipse.jdt
+ .ui;resolution:=optional,org.python.pydev.refactoring
+Bundle-Vendor: Aptana
+Build-Jdk: 1.7.0_55
+Bundle-Version: 3.9.0.201411111611
+Bundle-Activator: com.python.pydev.refactoring.RefactoringPlugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.python.pydev.refactoring; singleton:=true
+Archiver-Version: Plexus Archiver
+
+Name: refactoring.jar
+SHA-256-Digest: ZdzyL3XHlQ27b1D8d9BJBWYAwKAwMBT7tCffr2DKriI=
+
+Name: LICENSE.TXT
+SHA-256-Digest: J75t01G5GT6rkY9hiDNA+yh/SDVMI+VNinfwannMATI=
+
+Name: META-INF/maven/org.python.pydev/com.python.pydev.refactoring/pom
+ .properties
+SHA-256-Digest: xX1mpdH8ae3IypxeQe0WBKzM3BubnDVy8jJ/chk7k68=
+
+Name: plugin.xml
+SHA-256-Digest: W8OaQ4h1LHK5mhLv1EJXl6zrrT+6TmG90pKt12zivj8=
+
+Name: plugin.properties
+SHA-256-Digest: 1MR0PNKu3Hi88LvJnjuyD57FZQMcQ9JfK9gRY/e8txk=
+
+Name: META-INF/maven/org.python.pydev/com.python.pydev.refactoring/pom
+ .xml
+SHA-256-Digest: 2gVkcYfswKkLXQYcdz6GExVb8Yfdkz1+1Pik9xwCLhA=
+

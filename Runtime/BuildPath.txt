@@ -1,0 +1,2 @@
+toplevel COUNTER_TB2
+foreign WORK.My_Entity C:\Zamia\Standalone\workspace\Sim\Py_tb.py

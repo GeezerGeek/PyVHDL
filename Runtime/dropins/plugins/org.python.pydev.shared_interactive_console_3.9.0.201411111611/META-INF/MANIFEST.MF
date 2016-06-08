@@ -1,0 +1,82 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.commons.logging,org.apache.commons.logging.
+ impl,org.apache.ws.commons.serialize,org.apache.ws.commons.util,org.a
+ pache.xmlrpc,org.apache.xmlrpc.client,org.apache.xmlrpc.client.util,o
+ rg.apache.xmlrpc.common,org.apache.xmlrpc.jaxb,org.apache.xmlrpc.meta
+ data,org.apache.xmlrpc.parser,org.apache.xmlrpc.serializer,org.apache
+ .xmlrpc.server,org.apache.xmlrpc.util,org.apache.xmlrpc.webserver,org
+ .python.pydev.shared_interactive_console,org.python.pydev.shared_inte
+ ractive_console.console,org.python.pydev.shared_interactive_console.c
+ onsole.codegen,org.python.pydev.shared_interactive_console.console.ui
+ ,org.python.pydev.shared_interactive_console.console.ui.internal,org.
+ python.pydev.shared_interactive_console.console.ui.internal.actions,o
+ rg.python.pydev.shared_interactive_console.console.ui.internal.fromec
+ lipse
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: interactive_console.jar,commons-logging-1.1.1.jar,ws
+ -commons-util-1.0.2.jar,xmlrpc-client-3.1.3.jar,xmlrpc-common-3.1.3.j
+ ar,xmlrpc-server-3.1.3.jar
+Built-By: fabio_000
+Eclipse-BundleShape: dir
+Bundle-Localization: plugin
+Bundle-Name: Interactive Console Plug-in
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jf
+ ace.text,org.eclipse.ui.console,org.eclipse.debug.core,org.eclipse.de
+ bug.ui,org.eclipse.ui.workbench.texteditor,org.python.pydev.shared_co
+ re,org.eclipse.ui.ide,org.python.pydev.shared_ui
+Bundle-Vendor: Appcelerator
+Bundle-Version: 3.9.0.201411111611
+Build-Jdk: 1.7.0_55
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.python.pydev.shared_interactive_console.Interact
+ iveConsolePlugin
+Bundle-SymbolicName: org.python.pydev.shared_interactive_console;singl
+ eton:=true
+Archiver-Version: Plexus Archiver
+
+Name: LICENSE.txt
+SHA-256-Digest: J75t01G5GT6rkY9hiDNA+yh/SDVMI+VNinfwannMATI=
+
+Name: ws-commons-util-1.0.2.jar
+SHA-256-Digest: l8GD01tZbGoBDf6pZ8oeZ/Z2loBlNdzvW+F/+yaSz9Y=
+
+Name: icons/save.gif
+SHA-256-Digest: 2LNOC+AzCvg88HUi8Ud5kUlvp5ehQOfw22rA8BDVk6M=
+
+Name: xmlrpc-common-3.1.3.jar
+SHA-256-Digest: w3LSCnV9jdafT/H3582hj+qMyrxMUkFoztzIX+IJaX8=
+
+Name: icons/interrupt.gif
+SHA-256-Digest: yGMQ0S1C0Q7KVORgYNMPn9lsuLQVa/LuY9seittTLos=
+
+Name: xmlrpc-client-3.1.3.jar
+SHA-256-Digest: DsNR5UddW0OBMv/XmFJprUP00idnzWWQJDe0h7J8V/s=
+
+Name: icons/sync_ed.gif
+SHA-256-Digest: QDqJvieRo8o5BVQKtIHtDSGJ//p3qN7wMrRCCdK5MHY=
+
+Name: icons/terminate.gif
+SHA-256-Digest: TE802GttkNpbgC/xdSDietf/MIWlKLif9tcmG5fQa94=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.shared_interact
+ ive_console/pom.properties
+SHA-256-Digest: rbai82s+w3ubp3YXA03DSGz3nJUh8/U0gQXxx8LVusQ=
+
+Name: plugin.xml
+SHA-256-Digest: YutPjZTu60X28I7Xb1nyzoBRe00lr2N0tiSAX7cZ/B8=
+
+Name: xmlrpc-server-3.1.3.jar
+SHA-256-Digest: fj1Po8S9oLW0wyXy5oDgwo6deRnzNscsT68bfSKDJyo=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.shared_interact
+ ive_console/pom.xml
+SHA-256-Digest: ntODTa7cjqTc6DFPOc5RPx1C90MT2WkEjl+HTvjJmYU=
+
+Name: commons-logging-1.1.1.jar
+SHA-256-Digest: zm+RPK0fDbOq1wGG1lxbx//Mmpnj/o4LE3MSgZ98Ni8=
+
+Name: interactive_console.jar
+SHA-256-Digest: NUAW9e9S8EeeF6ZHeSHTjSPvbEhM7qsJUDRHqm3Um4M=
+
