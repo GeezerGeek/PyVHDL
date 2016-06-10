@@ -1,5 +1,5 @@
-MAX_RECENT_WORKSPACES=5
-RECENT_WORKSPACES=C\:\\Projects\\PyVHDL\\Workspace\nC\:\\Projects\\Zamiacad-0-11-3\\Workspace\nC\:\\Projects\\Zamiacad-0-11-3\\Old-Workspace\nC\:\\Projects\\Zamiacad-0-11-3\\temp_workspace\nC\:\\Projects\\Zamiacad-0-11-3\\Workspace\\range_arg
+MAX_RECENT_WORKSPACES=0
+RECENT_WORKSPACES=
 RECENT_WORKSPACES_PROTOCOL=3
-SHOW_WORKSPACE_SELECTION_DIALOG=false
+SHOW_WORKSPACE_SELECTION_DIALOG=true
 eclipse.preferences.version=1
