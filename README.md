@@ -1,6 +1,4 @@
-
 ## PyVHDL - A happy marriage of Python and VHDL
-
 PyVHDL is an open source project for simulating VHDL hardware designs. It cleanly integrates the general purpose [Python](https://www.python.org/) programming language with the specialized [VHDL](https://en.wikipedia.org/wiki/VHDL)  hardware description language. You can write the testbench for your VHDL design in Python. You can use Python for more than just testbenches. You can also create architectures in your VHDL design that are written in Python. Standard VHDL syntax is used to link the VHDL architecture to a python file. 
  
 ## Features
@@ -17,11 +15,12 @@ PyVHDL is an open source project for simulating VHDL hardware designs. It cleanl
 
 ## Documentation
 
-View the documentation for PyVHDL at ReadTheDocs.
+View the documentation for PyVHDL at [ReadTheDocs](http://pyvhdl-docs.readthedocs.io/en/latest/).
 
 ## Installation
 
-See the installation section of the documentation at ReadTheDocs.
+See the installation section of the documentation at [ReadTheDocs](http://pyvhdl-docs.readthedocs.io/en/latest/).
+.
 
 ## Contribute
 
